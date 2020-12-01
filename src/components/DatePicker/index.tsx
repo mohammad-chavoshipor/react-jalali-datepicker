@@ -165,7 +165,7 @@ export class DatePicker extends React.PureComponent<
       className,
     } = this.props;
     return (
-      <DatePickerDiv>
+      <DatePickerDiv className="datePicParent">
         <label>{label}</label>
         <div className="datePic">
           <MaskedInput
