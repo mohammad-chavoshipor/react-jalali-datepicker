@@ -167,7 +167,7 @@ export class DatePicker extends React.PureComponent<
     return (
       <DatePickerDiv>
         <label>{label}</label>
-        <div>
+        <div className="datePic">
           <MaskedInput
             className={className}
             data-testid="input-dp"
